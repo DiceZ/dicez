@@ -23,13 +23,13 @@ var divider = 100
 var randomnumber
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 615,                             // <----------------------------- EDIT ME!
+  app_id: 1345,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'BTC Bot',
+  app_name: 'Dice Z',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
- recaptcha_sitekey: '6Lfb_gwTAAAAAMZ0xZdSDvonuEdVNkz45MRZ4unA',  // <----- EDIT ME!
- redirect_uri: 'https://zdice.github.io/',
+ recaptcha_sitekey: '6LexiiMTAAAAAPgk61SMBRTB27tlrzKl87arwrgN',  // <----- EDIT ME!
+ redirect_uri: 'https://dicez.github.io/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: 'https://socket.moneypot.com',
@@ -40,7 +40,7 @@ var config = {
   //force_httpss_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
-  house_edge: 0.005,
+  house_edge: 0.01,
   chat_buffer_size: 0,
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 25
