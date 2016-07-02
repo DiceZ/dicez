@@ -1,5 +1,5 @@
 // Untitled Dice v0.0.8
-// Edited for automation by https://www.moneypot.com/users/gapjustin
+// Edited for automation by https://www.moneypot.com/users/BitCasino
 
 // Customize these configuration settings:
 var streak = 0
@@ -866,7 +866,7 @@ var Navbar = React.createClass({
             null,
             el.a(
               {
-                href: "https://www.moneypot.com/apps/615",
+                href: "https://www.moneypot.com/apps/1345",
                 target: '_blank'
               },
               'View on Moneypot ',
